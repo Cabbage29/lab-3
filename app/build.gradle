@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.lab3profileapp'
-    compileSdk 35
+    namespace 'com.example.lab3profile'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.lab3profileapp"
-        minSdk 21
-        targetSdk 35
+        applicationId "com.example.lab3profile"
+        minSdk 23
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -26,6 +26,5 @@ configurations.configureEach {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
 }
