@@ -1,0 +1,7 @@
+Validation performed before delivery:
+- All Android XML files parsed successfully.
+- Java activity source files compiled successfully against local Android/AppCompat stubs.
+- Java findViewById references match IDs declared in the layout XML files.
+- The AndroidManifest declares both MainActivity and DetailActivity.
+
+A real APK build needs the Android SDK and Gradle dependencies. The included GitHub Actions workflow performs that full build after upload.
