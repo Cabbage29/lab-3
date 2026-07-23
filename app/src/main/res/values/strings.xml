@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 3 Profile App</string>
+    <string name="profile_photo">Student profile photo</string>
+    <string name="detail_photo">Student detail photo</string>
+    <string name="view_details">View Details</string>
+    <string name="student_details">Student Details</string>
+
+    <string name="student_name_display">Name: Abraham Joy AL Selvarajoo</string>
+    <string name="student_matric_display">Matric: 4241003072</string>
+    <string name="student_course_display">Course: IAS3153 Mobile Programming</string>
+
+    <string name="name_format">Name: %1$s</string>
+    <string name="matric_format">Matric: %1$s</string>
+    <string name="course_format">Course: %1$s</string>
+</resources>
